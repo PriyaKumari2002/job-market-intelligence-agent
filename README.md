@@ -1,7 +1,3 @@
-pura readme saath mai do copy krne kai liye
-
-3:05 PM
-markdown
 # 🎯 Job Market Intelligence Agent
 
 An end-to-end Agentic AI system that analyzes live job market data and generates personalized career gap reports using LangGraph, Groq LLaMA 3, and Adzuna API.
@@ -64,7 +60,9 @@ pip install -r requirements.txt
 
 # Add API keys
 cp .env.example .env
-# Edit .env with your keys
+GROQ_API_KEY=your_groq_api_key_here
+ADZUNA_APP_ID=your_adzuna_app_id_here
+ADZUNA_APP_KEY=your_adzuna_app_key_here
 ```
 
 ## 🔑 Environment Variables
