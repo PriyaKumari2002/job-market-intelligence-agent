@@ -33,9 +33,9 @@ if analyze_btn:
         with st.spinner("Agent is analyzing live job market... Please wait"):
             try:
                 response = requests.post(
-                    "http://127.0.0.1:8000/analyze",
+                    "https://job-market-agent-api.onrender.com/analyze",
                     json={"query": query}
-                )
+                    )
                 data = response.json()
                 
                 # Top metrics
