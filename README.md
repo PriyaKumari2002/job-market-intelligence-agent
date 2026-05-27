@@ -92,3 +92,10 @@ streamlit run ui/app.py
 ## 🎯 Resume Impact
 
 Built a production-grade Job Market Intelligence Agent using LangGraph, Groq LLaMA 3, and Adzuna API — capable of fetching live job data, extracting in-demand skills via NLP, and generating personalized career gap reports through an agentic workflow exposed via FastAPI and Streamlit.
+
+## 🌐 Live Demo
+
+| Service | URL |
+|---|---|
+| 🖥️ Streamlit UI | [Click here](https://job-market-intelligence-agent-x4tur6jf2qdrx4ai7n44qz.streamlit.app) |
+| ⚡ FastAPI Backend | [Click here](https://job-market-agent-api.onrender.com/docs) |
