@@ -4,15 +4,6 @@ langchain==0.3.7
 langchain-groq==0.2.1
 langchain-community==0.3.7
 
-# NLP
-spacy==3.7.6
-
-# Vector DB
-chromadb==0.5.15
-
-# Database
-sqlalchemy==2.0.36
-
 # API
 fastapi==0.115.4
 uvicorn==0.32.0
